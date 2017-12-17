@@ -17,7 +17,7 @@ const Item = ({item, match, activate}) => {
         {/* <Comment.Avatar as='a' src={item.image_url} /> */}
         <Comment.Content>
             <Comment.Author>
-                <Link to={`магазин/${name}`} >
+                <Link to={`shop/${name}`} >
                     { item.name }
                 </Link>
             </Comment.Author>

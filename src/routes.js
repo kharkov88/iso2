@@ -12,8 +12,8 @@ const Zag = ()=> {
 export default (
     <Route component={App} path='/' >
         <IndexRoute component={Home} />
-        <Route component={Shop} path='магазин' />
-        <Route component={Zag}  path={'/магазин/:productId'} />
-        <Route component={Cart} path='корзина' />
+        <Route component={Shop} path='shop' />
+        <Route component={Zag}  path={'/shop/:productId'} />
+        <Route component={Cart} path='cart' />
     </Route>
 );

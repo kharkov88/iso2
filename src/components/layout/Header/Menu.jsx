@@ -23,10 +23,10 @@ export default class extends Component {
                     Home
                 </Menu.Item>
 
-                <Menu.Item as={Link} to={`/магазин`}
+                <Menu.Item as={Link} to={`/shop`}
                         className="link-shop"
-                        name='магазин'
-                        active={activeItem === 'магазин'}
+                        name='shop'
+                        active={activeItem === 'shop'}
                         onClick={this.handleItemClick}
                     >
                     Магазин
